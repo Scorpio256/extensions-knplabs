@@ -1,14 +1,14 @@
 {
   "name": "nettrine/extensions-knplabs",
   "description": "Doctrine2 behavioral extensions for Nette Framework",
-  "keywords": ["nette", "doctrine", "orm", "database"],
+  "keywords": ["contributte", "nette", "doctrine", "orm", "database"],
   "type": "library",
-  "license": "MPL-2.0",
+  "license": "MIT",
   "homepage": "https://github.com/nettrine/extensions-knplabs",
   "authors": [
     {
-      "name": "Marek Bartoš",
-      "homepage": "https://github.com/mabar"
+      "name": "Milan Felix Šulc",
+      "homepage": "https://f3l1x.io"
     }
   ],
   "require": {
@@ -26,7 +26,6 @@
     "phpstan/extension-installer": "^1.0",
     "phpstan/phpstan-deprecation-rules": "^0.12",
     "phpstan/phpstan-nette": "^0.12",
-    "phpstan/phpstan": "^0.12",
     "phpstan/phpstan-strict-rules": "^0.12",
     "tracy/tracy": "^2.7.0"
   },
@@ -48,7 +47,7 @@
   },
   "extra": {
     "branch-alias": {
-      "dev-master": "0.2.x-dev"
+      "dev-master": "0.3.x-dev"
     }
   }
 }
